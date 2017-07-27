@@ -121,7 +121,7 @@
         Step *step = (Step *)[[arrayController arrangedObjects] objectAtIndex:row];
         return step.tooltip;
     }
-    return nil;
+    return @"";
 }
 
 
